@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @sale.product %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @sale.quantity %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @sale.value %>
+</p>
+
+<p>
+  <strong>Coffee origin:</strong>
+  <%= @sale.coffee_origin %>
+</p>
+
+<p>
+  <strong>Blend name:</strong>
+  <%= @sale.blend_name %>
+</p>
+
+<%= link_to 'Edit', edit_sale_path(@sale) %> |
+<%= link_to 'Back', sales_path %>
